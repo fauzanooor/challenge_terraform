@@ -1,0 +1,11 @@
+region = "ap-southeast-1"
+env = "dev"
+key_name = "kyp-gsg"
+image_id = "ami-07191cf2912e097a6"
+instance_type = "t2.medium"
+desired_capacity = "2"
+max_size = "5"
+min_size = "2"
+vpc_subnet_id = ["subnet-07e5c49be973e86af"]
+asg_policy_name = "asg_policy_cpu45"
+cpu_trigger_value = "45"

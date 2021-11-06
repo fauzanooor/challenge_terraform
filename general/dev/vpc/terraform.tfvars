@@ -1,0 +1,5 @@
+region = "ap-southeast-1"
+env = "development"
+cidr_vpc = "172.10.0.0/16"
+cidr_subnet_public = "172.10.0.0/24"
+cidr_subnet_private = "172.10.10.0/24"
