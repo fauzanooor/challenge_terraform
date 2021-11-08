@@ -15,7 +15,7 @@ And there's few resources that related to it, which is:
 10.  an ASG policy for define the scaling policy (`aws_autoscaling_policy`)
 
 # Topology
-![enter image description here](https://raw.githubusercontent.com/fauzanooor/challenge_terraform/main/topology.png)
+![enter image description here](https://raw.githubusercontent.com/fauzanooor/challenge_terraform/main/topology-terraform.png)
 
 # Step 1 - Deploy the VPC
 Go to ./general/dev/vpc directory, and run the `terraform init` first
